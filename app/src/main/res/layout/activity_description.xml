@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@drawable/mainbackbround"
+    tools:context="com.example.lavakumar.medicinerecovery.Description">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="About This APP"
+        android:textSize="30sp"
+        android:textColor="#251ca4"
+        android:textStyle="bold"
+        android:id="@+id/textView3" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="This App will hlps you in two ways:"
+        android:textSize="22sp"
+        android:textColor="#c77f12"
+        android:textStyle="italic"
+        android:id="@+id/textView4" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="1"
+        android:textSize="25sp"
+        android:textColor="#36108f"
+        android:textStyle="italic"
+        android:id="@+id/text" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It gives you about properties of medicine and which medicine is suitable to which disease Like FEVER,COLD,HEADache..etc"
+        android:textSize="18sp"
+        android:textColor="#a76604"
+        android:textStyle="italic"
+        android:id="@+id/textView5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:id="@+id/btnCLickpre"
+        android:textSize="18sp"
+        android:textColor="#07418c"
+        android:textStyle="italic"
+        android:background="@drawable/buttonbackround"
+        android:layout_gravity="right" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2"
+        android:textSize="25sp"
+        android:textColor="#36108f"
+        android:textStyle="italic"
+        android:id="@+id/text2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="The another way of useful this app is you can store the name and purpose of the medicine in this app .Generally when th doctor give the medical sheet ome are may lost but writing the name and usage of the medicine it will help full to you and it completly stores the data with you and very helpul in any emergency.. "
+        android:textSize="18sp"
+        android:textColor="#a76604"
+        android:textStyle="italic"
+        android:id="@+id/textView6" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:id="@+id/btnCLickdata"
+        android:textSize="18sp"
+        android:textColor="#07418c"
+        android:textStyle="italic"
+        android:background="@drawable/buttonbackround"
+        android:layout_gravity="right" />
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>
